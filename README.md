@@ -16,12 +16,12 @@ To clone into your .android directory (for easy updating via git):
     $ cd ~/.android
     $ rm adb_usb.ini
     $ git init
-    $ git remote add origin git@github.com:GaHoKwan/adbusbini.git
+    $ git remote add origin git@github.com:nucked/adbusbini.git
     $ git pull origin master
 
 Alternatively, to just copy the latest file directly into your .android:
 
-    $ curl http://raw.github.com/GaHoKwan/adbusbini/master/adb_usb.ini ~/.android/adb_usb.ini
+    $ curl http://raw.github.com/nucked/adbusbini/master/adb_usb.ini ~/.android/adb_usb.ini
 
 A parseable listing is included in VENDORS, using the following format:
 
